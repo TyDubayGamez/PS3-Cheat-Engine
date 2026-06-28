@@ -22,7 +22,7 @@ class PS3CheatEngineUI(tk.Tk):
     def __init__(self):
         super().__init__()
         
-        self.title("PS3 Cheat Engine 1.7.2")
+        self.title("PS3 Cheat Engine 1.7.3")
         self.geometry("950x700")
         self.protocol("WM_DELETE_WINDOW", self.on_close)
         
